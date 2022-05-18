@@ -1,11 +1,11 @@
 -- Apaga o banco de dados caso exista.
-DROP DATABASE IF EXISTS vitugo;
+DROP DATABASE IF EXISTS infotech;
 
 -- Cria o banco de dados
-CREATE DATABASE vitugo CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE infotech CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 -- Seleciona banco de dados.
-USE vitugo; 
+USE infotech; 
 
 -- Cria tabela de usuários/autores.
 CREATE TABLE users (
