@@ -9,10 +9,11 @@ form[name="newuser"] {
 
 .form-help {
     font-size: .75rem;
-    background: rgb(252, 204, 114);
+    background: white;
     border-radius: .3rem;
     padding: .25rem;
     margin-top: -.5rem;
+    color: black;
 }
 
 .form-help ul {
