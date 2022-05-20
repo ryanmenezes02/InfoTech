@@ -100,7 +100,7 @@ endif;
 /**
  * Variável que define o título desta página.
  */
-$title = "Login...";
+$title = "Login";
 
 /**
  * Inclui o cabeçalho da página.

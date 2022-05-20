@@ -85,7 +85,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: #0d0d13;
+    background: #323232;
 }
 /* Logotipo usando "Font Awesome". */
 .wrap>header a {
@@ -114,7 +114,7 @@ body {
  */
 
 .wrap>nav {
-    background: rgba(0, 0, 0, .75);
+    background: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -126,7 +126,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: .5rem;
 }
@@ -151,9 +151,9 @@ body {
  * Estilos do rodapé.
  */
 .wrap>footer {
-    background: #0d0d13;
+    background: #ffffff;
     padding: 1px 0;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,7 +162,7 @@ body {
 .wrap>footer a {
     display: block;
     padding: .25rem;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
 }
 
@@ -314,7 +314,7 @@ form textarea {
 
 form button,
 form button[onclick] {
-    background: steelblue;
+    background: rgb(227, 255, 241);
     color: white;
     cursor: pointer;
     padding-left: 1rem;
@@ -323,7 +323,7 @@ form button[onclick] {
 
 form button:hover,
 form button[onclick]:hover {
-    background: orangered;
+    background: green;
 }
 
 /* Marca campos inválidos. */
@@ -338,8 +338,9 @@ form textarea:invalid {
 
 form input:valid,
 form textarea:valid {
-    background: rgb(232, 240, 254);
+    background: rgb(227, 255, 241);
     border-bottom: 3px solid green;
+    color: black;
 }
 
 /* Desabilita botão de envio se formulário está inválido. */

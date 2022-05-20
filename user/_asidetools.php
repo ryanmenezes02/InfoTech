@@ -52,7 +52,7 @@
     <li>
         <a href="/about/">
             <i class="fa-solid fa-circle-info fa-fw"></i>
-            Sobre agente
+            Sobre a gente
         </a>
     </li>
 
